@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/file-regular.svg</file>
+        <file>img/floppy-disk-regular.svg</file>
+        <file>img/folder-open-regular.svg</file>
+        <file>img/right-to-bracket-solid.svg</file>
+    </qresource>
+</RCC>

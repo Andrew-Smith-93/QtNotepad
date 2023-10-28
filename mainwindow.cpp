@@ -5,12 +5,16 @@
 #include <QTextStream>
 #include <QFile>
 #include <QDir>
+#include <QToolBar>
+#include <QAction>
+#include <QMainWindow>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->setCentralWidget(ui->textEdit);
 }
 
 MainWindow::~MainWindow()
